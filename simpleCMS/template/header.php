@@ -24,10 +24,10 @@
                         <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.php">About</a>
+                        <a class="nav-link" href="index.php?openPage=about.php">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contacts.php">Contact</a>
+                        <a class="nav-link" href="index.php?openPage=contacts.php">Contact</a>
                     </li>
                 </ul>
                 <form class="d-flex">
