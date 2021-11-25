@@ -1,0 +1,9 @@
+<?php
+include ("template/header.php");
+?>
+
+<h1> Обо мне</h1>
+
+<?php
+include ("template/footer.php");
+?>
