@@ -1,9 +1,13 @@
 <?php
 
+//echo __DIR__ . " ";
+//echo __FILE__ . " ";
+//echo __LINE__ . " ";
+
 
 function buildStandardTable (): string
 {
-
+    //echo __FUNCTION__ . " ";
     $res = "<tbody>";
     for ($r = 0; $r < 10; $r++) {
         $res.="\n<tr>";

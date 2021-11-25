@@ -1,7 +1,10 @@
 <?php
 
 require_once ("lib/buildTable.php");
+require_once ("lib/vars.php");
 
+
+$pageTitle = " Я принял решение - заголовок будет таким";
 
 require_once ("template/header.php");
 
