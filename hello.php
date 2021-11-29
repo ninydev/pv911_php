@@ -1,7 +1,25 @@
 <?php
 
+// - на сервере
+
+echo ("current dir: " . __DIR__ . "<br>");
+echo ("current file: " . __FILE__ . "<br>");
+
+// - на сервере
+?>
+
+<!-- Клиент -->
+<div id="url">
+</div>
+
+<script>
+    document.getElementById("url").innerHTML = location.href;
+</script>
+<!-- Клиент -->
 
 
+
+<?php
 //phpinfo();
 
 
