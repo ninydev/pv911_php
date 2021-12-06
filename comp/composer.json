@@ -1,0 +1,24 @@
+{
+    "name": "keeper/comp",
+    "description": "Lesson",
+    "type": "les",
+    "license": "BeerWare",
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "ninydev\\Comp\\": "src/",
+            "ninydev\\Models\\": "models/",
+            "ninydev\\Controllers\\": "controllers/",
+            "ninydev\\Config\\": "config/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Olexander Nykytin",
+            "email": "nikitin_a@itstep.academy"
+        }
+    ],
+    "minimum-stability": "dev"
+}
