@@ -5,7 +5,7 @@
         'type' => 'les',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '49f226e3b83e0f1962e41a8dbf4eb3a4aeb77de7',
+        'reference' => '1c044b1578bdedebb022746094dfaa6c6983a049',
         'name' => 'keeper/comp',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'les',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '49f226e3b83e0f1962e41a8dbf4eb3a4aeb77de7',
+            'reference' => '1c044b1578bdedebb022746094dfaa6c6983a049',
             'dev_requirement' => false,
         ),
         'phpmailer/phpmailer' => array(

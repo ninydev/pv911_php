@@ -4,9 +4,7 @@ require_once (__DIR__ ."/../vendor/autoload.php");
 $c = new \ninydev\Controllers\StudentController();
 
 echo $c->getForm();
-
-
-
+echo $c->buildResponse($_GET);
 
 
 
